@@ -7,6 +7,7 @@ import Page from './components/page'
 
 import CartPage from './components/cartPage'
 import Long from './components/long'
+import Homepages from './components/homepages'
 
 
 
@@ -17,14 +18,7 @@ function App() {
     <>
       <Routes >
         <Route path='' element={<Layout />}>
-
-          <Route path='page' element={<Page />}/>
-          <Route path='page' element={<CartPage />}/>
-          <Route path='  ' element={<Long />}/>
-          <Route path='cart' element={<CartPage />}/>
-
-
-
+        <Route path='admin' element={<Homepages />} />
         </Route>
       </Routes>
     </>
