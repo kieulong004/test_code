@@ -1,6 +1,5 @@
-
 const Test123 = () => {
   return <div>khong tate</div>;
 };
 
-export default Test123
+export default Test123;

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Trungtest = () => {
-  return <div>Long test</div>;
+  return <div>code trung lam </div>;
 };
 
 export default Trungtest;
