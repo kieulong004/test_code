@@ -3,10 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Layout from './components/layout'
 
-import Page from './components/page'
 
-import CartPage from './components/cartPage'
-import Long from './components/long'
 import Homepages from './components/homepages'
 
 
@@ -19,6 +16,7 @@ function App() {
       <Routes >
         <Route path='' element={<Layout />}>
         <Route path=' admin' element={<Homepages />}/>
+        <Route path=' web' element={<Homepages />}/>
         </Route>
       </Routes>
     </>
