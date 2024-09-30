@@ -19,7 +19,7 @@ function App() {
 
           <Route path='page' element={<Page />}/>
           <Route path='page' element={<CartPage />}/>
-
+          
           <Route path='cart' element={<CartPage />}/>
 
 
