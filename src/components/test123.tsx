@@ -1,8 +1,6 @@
 
 const Test123 = () => {
-  return (
-    <div>test123</div>
-  )
-}
+  return <div>khong tate</div>;
+};
 
 export default Test123
