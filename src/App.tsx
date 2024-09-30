@@ -6,6 +6,7 @@ import Layout from './components/layout'
 import Page from './components/page'
 
 import CartPage from './components/cartPage'
+import Long from './components/long'
 
 
 
@@ -19,7 +20,7 @@ function App() {
 
           <Route path='page' element={<Page />}/>
           <Route path='page' element={<CartPage />}/>
-          
+          <Route path='  ' element={<Long />}/>
           <Route path='cart' element={<CartPage />}/>
 
 
